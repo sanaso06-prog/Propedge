@@ -1,8 +1,8 @@
-import React, { useState } from ‘react’;
-import { PLAYERS } from ‘./players’;
-import { OPPONENTS, MATCHUPS, defLabel, posDefKey } from ‘./opponents’;
-import { runAnalysis } from ‘./analysis’;
-import BetTracker from ‘./BetTracker’;
+import React, { useState } from “react”;
+import { PLAYERS } from “./players”;
+import { OPPONENTS, MATCHUPS, defLabel, posDefKey } from “./opponents”;
+import { runAnalysis } from “./analysis”;
+import BetTracker from “./BetTracker”;
 
 const PROP_TYPES = [“Points”,“Rebounds”,“Assists”,“3-Pointers Made”,“Steals”,“Blocks”,“PRA (Pts+Reb+Ast)”];
 const POS_COLORS = { PG:”#4444ff”, SG:”#00c896”, SF:”#ffd700”, PF:”#ff8844”, C:”#ff4444” };
@@ -479,4 +479,4 @@ color: tab === t.id ? “#fff” : “#555”,
 </div>
 </div>
 );
-} 
+}
